@@ -7,5 +7,6 @@ def calculate_hash_string(text, hash_algorithm='sha256'):
     return hash_object.hexdigest()
 
 
-hash_string = calculate_hash_string(text='Hello, World!')
+text = 'Hello, World!'
+hash_string = calculate_hash_string(text)
 print(f'Hash value for string: {hash_string}')
